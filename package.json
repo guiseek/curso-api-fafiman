@@ -1,0 +1,31 @@
+{
+  "name": "curso-api-fafiman",
+  "version": "1.0.0",
+  "description": "API para o curso de AngularJS da Fafiman",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon bootstrap.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guiseek/curso-api-fafiman.git"
+  },
+  "author": "Gui Seek",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^5.8.29",
+    "body-parser": "^1.12.3",
+    "cors": "^2.5.3",
+    "express": "^4.12.3",
+    "media-typer": "^0.3.0",
+    "mongoose": "^4.4.15"
+  },
+  "devDependencies": {
+    "jasmine-node": "^2.0.0",
+    "request-promise": "^1.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/guiseek/curso-api-fafiman/issues"
+  },
+  "homepage": "https://github.com/guiseek/curso-api-fafiman#readme"
+}
